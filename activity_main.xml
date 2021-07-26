@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_launcher_background"/>
+
+        <TextView
+            android:id="@+id/tvPickImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg"
+            android:gravity="center"
+            android:minWidth="120dp"
+            android:text="Pick Image"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:onClick="onClickPickImage"/>
+
+        <TextView
+            android:id="@+id/tvPickFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg"
+            android:gravity="center"
+            android:minWidth="120dp"
+            android:text="Pick File"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:onClick="onClickPickFile"/>
+
+        <TextView
+            android:id="@+id/tvPickAudio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg"
+            android:gravity="center"
+            android:minWidth="120dp"
+            android:text="Pick Audio"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:onClick="onClickPickAudio"/>
+
+        <TextView
+            android:id="@+id/tvPickVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg"
+            android:gravity="center"
+            android:minWidth="120dp"
+            android:text="Pick Video"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:onClick="onClickPickVideo"/>
+    </LinearLayout>
+</layout>
